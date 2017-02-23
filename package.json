@@ -1,0 +1,22 @@
+{
+  "name": "whippfolio",
+  "version": "1.0.0",
+  "description": "A portfolio website for Stephen Whipp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whippsofacto/whippsofacto"
+  },
+  "author": "Stephen Whipp",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
