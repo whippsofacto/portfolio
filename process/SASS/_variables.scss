@@ -1,0 +1,19 @@
+//------- Fonts
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Josefin+Sans');
+
+$font-header: 'Amatic SC', cursive;
+$font-body-text: "Josefin Sans", sans-serif;
+
+
+//-- Susy --------/
+$susy: (
+  columns: 12,
+  container: 60em,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+);
+
+$shorthand: 12 1/4 fluid float inside;

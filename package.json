@@ -14,9 +14,15 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
     "gulp-jshint": "^2.0.4",
     "gulp-ruby-sass": "^2.1.1",
     "gulp-sourcemaps": "^2.4.1",
-    "gulp-webserver": "^0.9.1"
+    "gulp-util": "^3.0.8",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "sequencejs": "^2.0.0",
+    "susy": "^2.2.12"
   }
 }

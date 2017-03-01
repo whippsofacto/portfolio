@@ -3,4 +3,3 @@ node_modules
 .sass-cache
 bin
 images/**
-public/css/style.css

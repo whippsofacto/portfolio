@@ -1,0 +1,49 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+}
+
+h1, h2, h3{
+  font-family: $font-header;
+}
+
+h3{
+  font-size: 150%;
+}
+
+p{
+  font-family: $font-body-text;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+#head{
+  text-align: center;
+}
+
+#head h1{
+padding-top:20px;
+font-size: 20pt;
+}
+
+
+#head p{
+  font-family: $font-header;
+  font-size: 60pt;
+}
+
+canvas{
+	top:0;
+  left: 0;
+  width:100%;
+  margin-top: -60%;
+}
