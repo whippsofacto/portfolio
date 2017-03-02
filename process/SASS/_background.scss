@@ -1,0 +1,41 @@
+.background{
+ color: #FFF;
+ margin: 0 auto;
+ padding: 0;
+ width: 100%;
+ display: table;
+
+  .container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+  h2{
+    line-height: 205%;
+    margin-bottom: 0;
+    padding: 0 10%;
+  }
+
+  p{
+    color: #FFF;
+    line-height:150%;
+    margin-top: 0;
+  }
+ }
+}
+
+#spearatorTop{
+@include  separatorUnique($deepblue, 600px);
+}
+
+#spearatorMiddleTop{
+  @include  separatorUnique($red, 700px);
+}
+
+#separatorMiddleBottom{
+  @include  separatorUnique($yellow, 600px);
+}
+
+#sparatorBottom{
+  @include  separatorUnique($green, 600px);
+}

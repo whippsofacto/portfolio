@@ -1,0 +1,50 @@
+#contact{
+  padding-top:20px;
+  padding-bottom:40px;
+  height: 600px;
+  color: #000;
+}
+
+.button{
+  margin: 0 auto;
+  padding: 0;
+}
+
+#contact p{
+  color: #000;
+  padding-bottom: 15px;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
+
+#contact .button a {
+  text-align: center;
+padding: 15px 70px 15px 70px;
+border-radius: 15px;
+font-family: $font-body-text;
+}
+
+
+#contact a{
+  text-align: center;
+}
+
+#contact .button span{
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+#contact  a:link {
+  text-decoration: none;
+  background-color: $deepblue;
+  color: #fff;
+}
+
+#contact .button a:hover {
+  transition-duration: 1s;
+  background-color: #5972AD;
+  cursor: pointer;
+}

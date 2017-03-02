@@ -5,13 +5,21 @@
 $font-header: 'Amatic SC', cursive;
 $font-body-text: "Josefin Sans", sans-serif;
 
+//--- Glyphs ------------------------//
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 
+//------- Colors ----------//
+
+$deepblue: #3D82A1;
+$yellow: #EFCC33;
+$green: #20F5A8;
+$red: #BF605E;
 
 //-- Susy --------/
 $susy: (
   columns: 12,
   container: 70em,
-  gutters: 1/2,
+  gutters: 1/4,
   math: fluid,
   output: float,
   gutter-position: inside

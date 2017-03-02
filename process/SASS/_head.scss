@@ -1,0 +1,21 @@
+#head{
+  text-align: center;
+  height: 600px;
+}
+
+#head h1{
+padding-top:20px;
+font-size: 20pt;
+}
+
+
+#head p{
+  font-family: $font-header;
+  font-size: 60pt;
+}
+
+canvas{
+	top:0;
+  left: 0;
+  width:100%;
+}

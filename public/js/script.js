@@ -11,12 +11,10 @@ greeting();
 });
 //http://jsfiddle.net/brunolm/CDzXQ/ -- change text code.
 
-
 $(function(){
     var hasBeenTrigged = false;
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 20 && !hasBeenTrigged) { // if scroll is greater/equal then 100 and hasBeenTrigged is set to false.
-
 
 //alert after scrolling 100px;
 // confetti party - Code Pen
@@ -25,7 +23,7 @@ $(function(){
 canvas = document.getElementById("canvas");
 context = canvas.getContext("2d");
 width = canvas.width = window.innerWidth;
-height = canvas.height = window.innerHeight - 200;
+height = canvas.height = 300;
 
 
 // création d'un tableau

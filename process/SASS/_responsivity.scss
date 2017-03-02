@@ -1,0 +1,97 @@
+// Susy ----- Do Your Bootstrap (without Bootstrap) Magic.
+
+.container {
+  @include container;
+
+  width: 80%;
+  margin: 0 auto;
+  .aboutTech{
+    @include span(6);
+  }
+  .aboutProj{
+    @include span(4);
+    @include gutters(4);
+  }
+  .breakText{
+    @include span(12);
+    @include gutters(2);
+  }
+}
+
+
+//---Tablet --------------------------------------------------//
+
+@media screen and (min-width : 668px) and  (max-width : 1000px) {
+.container{
+  @include container;
+  .aboutProj{
+    @include span(12);
+    text-align: center;
+  }
+}
+}
+
+//-- Mobile ------------------------------------------------//
+
+
+@media only screen and (max-width: 667px) {
+
+
+// -- Head ---- Change of states ------------------//
+#head{
+  padding-top: 100px;
+  height: 600px;
+}
+
+ #head p{
+    font-size: 30pt;
+  }
+
+  #nav li {
+    font-size: 10px;
+  }
+
+  canvas{
+    visibility: hidden;
+  }
+
+//-- Projects -- Change of States ----------//
+
+#projects h2{
+  font-size:3.0rem;
+
+}
+
+//-- Separators ----- Change of States --------------//
+  .container {
+    @include container;
+    width: 80%;
+    margin: 0 auto;
+
+    .aboutTech{
+      @include span(12);
+      text-align: center;
+    }
+
+    .aboutProj{
+      @include span(12);
+      text-align: center;
+    }
+
+  }
+
+
+
+  .background{
+    .container{
+      h2{
+        font-size: 3.0rem;
+      }
+      p{
+        font-size: 1.8rem;
+      }
+     }
+    }
+
+
+ }

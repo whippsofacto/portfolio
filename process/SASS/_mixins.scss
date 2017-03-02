@@ -1,0 +1,15 @@
+@mixin separatorUnique($color,$height){
+background-color: $color;
+height:$height;
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  } //before, after
+  &:after {
+    clear: both;
+  } //after
+} //clearfix
