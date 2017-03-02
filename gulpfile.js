@@ -14,7 +14,7 @@ gulp.task('js', function() {
 gulp.task('compass', function() {
    gulp.src('./process/sass/*.scss')
   .pipe(compass({
-    style: "expanded",
+    style: "compressed",
     // Gulp-compass options and paths
     css: './public/css',
     sass: './process/sass',
