@@ -532,7 +532,7 @@ img {
 
 #head {
   text-align: center;
-  height: 600px;
+  height: 620px;
 }
 
 #head h1 {
@@ -606,14 +606,14 @@ nav #nav {
   top: 10px;
   color: black;
   display: none;
-  margin: 120px 30px;
+  margin: 100px 75px;
   text-decoration: none;
   font-family: Arial, sans-serif;
   font-weight: 100;
   font-size: 20px;
   text-transform: uppercase;
   color: #333;
-  padding: 24px;
+  padding: 24px 24px;
   width: 200px;
   text-align: right;
 }
@@ -760,12 +760,14 @@ article {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 33.33333%;
+  width: 100%;
   float: left;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
   padding-left: 2.5%;
   padding-right: 2.5%;
+  text-align: center;
+  padding-bottom: 40px;
 }
 .container .breakText {
   -moz-box-sizing: border-box;
