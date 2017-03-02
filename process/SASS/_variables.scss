@@ -6,14 +6,15 @@ $font-header: 'Amatic SC', cursive;
 $font-body-text: "Josefin Sans", sans-serif;
 
 
+
 //-- Susy --------/
 $susy: (
   columns: 12,
-  container: 60em,
-  gutters: 1/4,
+  container: 70em,
+  gutters: 1/2,
   math: fluid,
   output: float,
-  gutter-position: inside,
+  gutter-position: inside
 );
 
 $shorthand: 12 1/4 fluid float inside;

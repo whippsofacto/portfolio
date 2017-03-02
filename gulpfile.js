@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     compass = require('gulp-compass');
     sourcemaps = require('gulp-sourcemaps'),
-    webserver = require('gulp-webserver');
+    webserver = require('gulp-webserver'),
+
 
 gulp.task('js', function() {
   return gulp.src('public/js/script.js')
@@ -10,11 +11,8 @@ gulp.task('js', function() {
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
-
-
-
 gulp.task('compass', function() {
-  return gulp.src('./process/sass/*.scss')
+   gulp.src('./process/sass/*.scss')
   .pipe(compass({
     style: "expanded",
     // Gulp-compass options and paths
@@ -31,11 +29,11 @@ gulp.task('compass', function() {
 
 gulp.task('watch', function() {
   gulp.watch('public/js/**/*', ['js']);
-  gulp.watch(['process/sass/**/*'], ['sass']);
+  gulp.watch(['process/sass/**/*'], ['compass']);
 });
 
 gulp.task('webserver', function() {
-    gulp.src('public/')
+    gulp.src('./public')
         .pipe(webserver({
             livereload: true,
             open: true

@@ -21,8 +21,12 @@ p{
   font-family: $font-body-text;
 }
 .container {
+  @include container;
   width: 80%;
   margin: 0 auto;
+  .aboutTech{
+    @include span(4);
+  }
 }
 
 
@@ -39,6 +43,15 @@ font-size: 20pt;
 #head p{
   font-family: $font-header;
   font-size: 60pt;
+}
+
+img {max-width:100%}
+
+#about img {
+}
+
+#hello{
+  max-width: 100%;
 }
 
 canvas{

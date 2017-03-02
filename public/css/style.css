@@ -470,8 +470,25 @@ p {
 }
 
 .container {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
   margin: 0 auto;
+}
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container .aboutTech {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 1.38889%;
+  padding-right: 1.38889%;
 }
 
 #head {
@@ -488,6 +505,14 @@ p {
   font-size: 60pt;
 }
 
+img {
+  max-width: 100%;
+}
+
+#hello {
+  max-width: 100%;
+}
+
 canvas {
   top: 0;
   left: 0;
@@ -495,6 +520,46 @@ canvas {
   margin-top: -60%;
 }
 
+@media only screen and (max-width: 667px) {
+  #head {
+    margin-top: 120px;
+  }
+
+  #head p {
+    font-size: 30pt;
+  }
+
+  #nav li {
+    font-size: 10px;
+  }
+
+  canvas {
+    visibility: hidden;
+  }
+
+  .container {
+    max-width: 70em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .container .aboutTech {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    padding-left: 1.38889%;
+    padding-right: 1.38889%;
+    text-align: center;
+  }
+}
 nav .bg-cover {
   position: fixed;
   left: 0;
@@ -531,6 +596,7 @@ nav .hamburger-shell {
   overflow: auto;
   left: calc(100% - 100px);
   top: 20px;
+  cursor: pointer;
 }
 nav .top, nav .middle {
   position: absolute;
@@ -538,10 +604,10 @@ nav .top, nav .middle {
   height: 10px;
   background-color: black;
   transition: all 350ms ease-in-out;
-  top: 20px;
+  top: 5px;
 }
 nav .middle {
-  top: 40px;
+  top: 20px;
 }
 nav #nav {
   position: fixed;
@@ -605,7 +671,7 @@ nav .menu-name {
   font-size: 19.5px;
   text-decoration: none;
   position: absolute;
-  top: 56px;
+  top: 34px;
   left: -1px;
   transition: all 350ms;
 }
@@ -613,5 +679,3 @@ nav .bump {
   top: 64px;
   color: red;
 }
-
-/*# sourceMappingURL=style.css.map */
