@@ -2,7 +2,7 @@
 
 Project to develop a portfolio page. 
 
-![alt tag](https://)
+![website-whippsofacto.com-gif](https://github.com/whippsofacto/portfolio/blob/master/whippFolio.gif)
 
 
 Scripts were repurposed from the following sources: 
